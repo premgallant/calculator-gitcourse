@@ -8,3 +8,4 @@ public class Exponential {
     System.out.println(base + " raised to the power of " + exponent + " is " + result);
   }
 }
+math.
