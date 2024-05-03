@@ -4,6 +4,7 @@ public class Exponential {
     double base = 2.0;
     int exponent = 3;
     double result = Math.pow(base, exponent);
+    System.out.println(Math.exp(5));
     System.out.println(base + " raised to the power of " + exponent + " is " + result);
   }
 }
