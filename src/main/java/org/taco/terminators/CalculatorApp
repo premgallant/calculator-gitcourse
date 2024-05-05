@@ -5,6 +5,8 @@ public class CalculatorApp{
     Multiplication compute = new Multiplication();
     compute.multiply(10,10);
 
+    "Welcome to the Calculator App. Our job is to crunch numbers for a living. Please enjoy your time here. If you have any questions, please go to the reception desk on the first floor. And as we always say,'crunch crunch 'em numbies!'"
+
    }
 
 }
