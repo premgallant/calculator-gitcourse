@@ -1,0 +1,10 @@
+public class CalculatorApp{
+
+   public static void main(String args[]){
+
+    Multiplication compute = new Multiplication();
+    compute.multiply(10,10);
+
+   }
+
+}
