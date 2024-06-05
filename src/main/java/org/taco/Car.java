@@ -10,13 +10,21 @@ public class Car {
         this.engineType = engineType;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", engineType='" + engineType + '\'' +
+                '}';
+    }
+
     public void startEngine(){
-        System.out.println("Start Engine");
+        System.out.println(this.model+ " Engine started");
     }
 
 
     public void stopEngine(){
-        System.out.println("stop Engine");
+        System.out.println(this.model+ " Engine stopped");
     }
 
 }
